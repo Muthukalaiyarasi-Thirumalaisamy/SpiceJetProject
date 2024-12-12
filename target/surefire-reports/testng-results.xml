@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T21:45:48 IST" name="Surefire suite" finished-at="2024-12-12T21:49:43 IST" duration-ms="234450">
+    <groups>
+    </groups>
+    <test started-at="2024-12-12T21:45:48 IST" name="Surefire test" finished-at="2024-12-12T21:49:43 IST" duration-ms="234450">
+      <class name="com.qa.testcases.flightsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.flightsPageTest@9353778]" started-at="2024-12-12T21:45:48 IST" name="setUp" finished-at="2024-12-12T21:46:02 IST" duration-ms="13668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flightPageTitleTest()[pri:1, instance:com.qa.testcases.flightsPageTest@9353778]" started-at="2024-12-12T21:46:02 IST" name="flightPageTitleTest" finished-at="2024-12-12T21:46:02 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.flightsPageTest@9353778]" started-at="2024-12-12T21:46:02 IST" name="tearDown" finished-at="2024-12-12T21:46:02 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.flightsPageTest -->
+      <class name="com.qa.testcases.loginPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:46:02 IST" name="SetUp" finished-at="2024-12-12T21:46:10 IST" duration-ms="7628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="logInPageTitleTest()[pri:1, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:46:10 IST" name="logInPageTitleTest" finished-at="2024-12-12T21:46:10 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:46:10 IST" name="tearDown" finished-at="2024-12-12T21:46:10 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:46:10 IST" name="SetUp" finished-at="2024-12-12T21:46:16 IST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SpiceJetLogoTest()[pri:2, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:46:16 IST" name="SpiceJetLogoTest" finished-at="2024-12-12T21:49:36 IST" duration-ms="200365" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (32688e6aca087592e2cbb9394c525267)] -> xpath: //img[contains(@src,'https://www.spicejet.com/v1.svg')]] (tried for 200 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\MOMS'G~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50961/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32688e6aca087592e2cbb9394c525267]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (32688e6aca087592e2cbb9394c525267)] -> xpath: //img[contains(@src,'https://www.spicejet.com/v1.svg')]] (tried for 200 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\MOMS'G~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50961/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32688e6aca087592e2cbb9394c525267
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.pages.loginPage.ValidateSpicejetLogo(loginPage.java:44)
+at com.qa.testcases.loginPageTest.SpiceJetLogoTest(loginPageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpiceJetLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:49:36 IST" name="tearDown" finished-at="2024-12-12T21:49:36 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:49:36 IST" name="SetUp" finished-at="2024-12-12T21:49:41 IST" duration-ms="5083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="login()[pri:3, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:49:41 IST" name="login" finished-at="2024-12-12T21:49:43 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.loginPageTest@5f058f00]" started-at="2024-12-12T21:49:43 IST" name="tearDown" finished-at="2024-12-12T21:49:43 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.loginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

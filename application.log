@@ -1,0 +1,16 @@
+2024-12-12 23:01:44,886  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:01:47,501  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:01:51,559  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:01:52,683  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:03:41,505  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:03:43,177  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:03:47,233  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:03:48,300  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:05:15,990  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:05:17,549  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:05:21,603  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:05:22,663  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:08:46,970  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:08:48,074  WARN [main] base:51 - This is just a warning before launching the window
+2024-12-12 23:08:53,272  INFO [main] base:42 - Initializing the browser: chrome
+2024-12-12 23:08:54,373  WARN [main] base:51 - This is just a warning before launching the window
