@@ -17,13 +17,15 @@ public class base {
 	
    static Logger log = Logger.getLogger(base.class);
    
-   
+   public WebDriver getDriver() {
+       return driver;
+   }
    
 	public base()
 	{
 		try {
 			prob= new Properties();
-			FileInputStream ip= new FileInputStream("C:\\Users\\MOMS'GIRL\\OneDrive\\Documents\\SELENEIUM_PROJECT\\projectFramaework\\src\\main\\java\\com\\qa\\config\\config.properties");
+			FileInputStream ip= new FileInputStream("C:\\Users\\MOMS'GIRL\\OneDrive\\Documents\\SELENEIUM_PROJECT_New\\SELENEIUM_PROJECT\\SpiceJetProject\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prob.load(ip);
 			
 		} catch (Exception e) {

@@ -9,24 +9,45 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SpiceJet Website Testing</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">222,851</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">679</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SpiceJet Website Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.loginPageTest</td><td><a href="#m0">SpiceJetLogoTest</a></td><td rowspan="1">1734024926634</td><td rowspan="1">200038</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testcases.flightsPageTest</td><td><a href="#m1">flightPageTitleTest</a></td><td rowspan="1">1734025138620</td><td rowspan="1">8</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testcases.loginPageTest</td><td><a href="#m2">logInPageTitleTest</a></td><td rowspan="1">1734024921383</td><td rowspan="1">15</td></tr><tr class="passedodd"><td><a href="#m3">login</a></td><td rowspan="1">1734025131720</td><td rowspan="1">1336</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SpiceJet Website Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.flightsPageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1734858284499</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="1">com.qa.testcases.loginPageTest</td><td><a href="#m1">SetUp</a></td><td rowspan="1">1734858284411</td><td rowspan="1">23</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.flightsPageTest</td><td><a href="#m2">tearDown</a></td><td rowspan="1">1734858284508</td><td rowspan="1">-1734858284508</td></tr><tr class="skippedodd"><td rowspan="5">com.qa.testcases.loginPageTest</td><td><a href="#m3">SetUp</a></td><td rowspan="2">1734858284491</td><td rowspan="2">-1734858284491</td></tr><tr class="skippedodd"><td><a href="#m4">SetUp</a></td></tr><tr class="skippedodd"><td><a href="#m5">tearDown</a></td><td rowspan="3">1734858284496</td><td rowspan="3">-1734858284496</td></tr><tr class="skippedodd"><td><a href="#m6">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m7">tearDown</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.flightsPageTest</td><td><a href="#m8">flightPageTitleTest</a></td><td rowspan="1">1734858284505</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.qa.testcases.loginPageTest</td><td><a href="#m9">SpiceJetLogoTest</a></td><td rowspan="1">1734858284484</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m10">logInPageTitleTest</a></td><td rowspan="1">1734858284452</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m11">login</a></td><td rowspan="1">1734858284493</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.qa.testcases.loginPageTest#SpiceJetLogoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (692705a0908a7035e19286869197ae9d)] -&gt; xpath: //img[contains(@src,&apos;https://www.spicejet.com/v1.svg&apos;)]] (tried for 200 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\MOMS&apos;G~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52561}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52561/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 692705a0908a7035e19286869197ae9d
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.qa.pages.loginPage.ValidateSpicejetLogo(loginPage.java:44)
-	at com.qa.testcases.loginPageTest.SpiceJetLogoTest(loginPageTest.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testcases.flightsPageTest#flightPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.testcases.loginPageTest#logInPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.testcases.loginPageTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.qa.testcases.flightsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.flightsPageTest.setUp(flightsPageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.loginPageTest#SetUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.loginPageTest.SetUp(loginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.flightsPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.testcases.loginPageTest#SetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.testcases.loginPageTest#SetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.testcases.loginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.testcases.loginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.testcases.loginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.testcases.flightsPageTest#flightPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.flightsPageTest.setUp(flightsPageTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.testcases.loginPageTest#SpiceJetLogoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.loginPageTest.SetUp(loginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.testcases.loginPageTest#logInPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.loginPageTest.SetUp(loginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.testcases.loginPageTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;BrowserName&quot; is null
+	at com.qa.base.base.initialisation(base.java:46)
+	at com.qa.testcases.loginPageTest.SetUp(loginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
